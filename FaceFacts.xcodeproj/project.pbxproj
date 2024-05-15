@@ -11,6 +11,7 @@
 		A083DF102BF464E700B1D016 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083DF0F2BF464E700B1D016 /* ContentView.swift */; };
 		A083DF122BF464EC00B1D016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A083DF112BF464EC00B1D016 /* Assets.xcassets */; };
 		A083DF152BF464EC00B1D016 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A083DF142BF464EC00B1D016 /* Preview Assets.xcassets */; };
+		A083DF1C2BF4672300B1D016 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A083DF1B2BF4672300B1D016 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A083DF0F2BF464E700B1D016 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A083DF112BF464EC00B1D016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A083DF142BF464EC00B1D016 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A083DF1B2BF4672300B1D016 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				A083DF0D2BF464E700B1D016 /* FaceFactsApp.swift */,
 				A083DF0F2BF464E700B1D016 /* ContentView.swift */,
+				A083DF1B2BF4672300B1D016 /* Person.swift */,
 				A083DF112BF464EC00B1D016 /* Assets.xcassets */,
 				A083DF132BF464EC00B1D016 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A083DF1C2BF4672300B1D016 /* Person.swift in Sources */,
 				A083DF102BF464E700B1D016 /* ContentView.swift in Sources */,
 				A083DF0E2BF464E700B1D016 /* FaceFactsApp.swift in Sources */,
 			);
@@ -287,9 +291,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.YW.FaceFacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,9 +324,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.YW.FaceFacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
